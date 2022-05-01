@@ -1,0 +1,20 @@
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold" style="text-align:center; font-size: 50px;">Quiz Application</h1>
+   <p  style="text-align: center; color: blueviolet;">    Quiz Contains 10 Question MARK:10</p>
+    <h4 style="color:red;text-align:center">Instructions:</h4>
+    <ul style="text-align: center;">
+            Attempt All questions.<br>
+            No Negative Marking.
+    </ul>
+    <div class="name col-md-3 my-3">Details<br><br>
+        <label for="name">Enter name*:</label>
+        <input #name type="text" class="form-control">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control">
+
+    </div>
+    <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuiz()">Start!!</button>
+
+</div>

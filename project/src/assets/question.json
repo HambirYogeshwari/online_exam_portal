@@ -1,0 +1,184 @@
+{
+    "question": [{
+            "questionText": "Which of the following command is used to start a REPL session?",
+            "options": [{
+                    "text": "$ node",
+                    "correct": true
+                },
+                {
+                    "text": "$ node console"
+                },
+                {
+                    "text": "$ node repl"
+                },
+                {
+                    "text": "$ node start"
+                }
+            ],
+            "explanation": "A is the correct option. We can start REPL simply by running node on shell/console without any argument."
+        },
+        {
+            "questionText": "Which of the following command is used to install the Node.js express module?",
+            "options": [{
+                    "text": "$ npm install express",
+                    "correct": true
+                },
+                {
+                    "text": "$ install express"
+                },
+                {
+                    "text": "$ node install express"
+                },
+                {
+                    "text": "None of the above"
+                }
+            ],
+            "explanation": "A is the correct option. The $ npm install express command is used to install the Node.js express module."
+        },
+        {
+            "questionText": "The Node.js modules can be exposed using?",
+            "options": [{
+                    "text": "module"
+                },
+                {
+                    "text": "expose"
+                },
+                {
+                    "text": "exports",
+                    "correct": true
+                },
+                {
+                    "text": "All of the above"
+                }
+            ],
+            "explanation": "C is the correct option. The Node.js modules can be exposed using module.exports."
+        },
+        {
+            "questionText": "What does the fs module stand for?",
+            "options": [{
+                    "text": "File Service"
+                },
+                {
+                    "text": "File System",
+                    "correct": true
+                },
+                {
+                    "text": "File Store"
+                },
+                {
+                    "text": "File Sharing"
+                }
+            ],
+            "explanation": "B is the correct option. The fs module stands for File System."
+        },
+        {
+            "questionText": "Which of the following statement is correct?",
+            "options": [{
+                    "text": "js is Server Side Language.",
+                    "correct": true
+                },
+                {
+                    "text": "js is both Server Side and Client Side Language."
+                },
+                {
+                    "text": "js is the Client Side Language"
+                },
+                {
+                    "text": "None of the above"
+                }
+            ],
+            "explanation": "A is the correct option. Node.js is Server Side Language."
+        },
+        {
+            "questionText": "Which of the following module is not a built-in node module?",
+            "options": [{
+                    "text": "zlib"
+                },
+                {
+                    "text": "dgram"
+                },
+                {
+                    "text": "https"
+                },
+                {
+                    "text": "fsread",
+                    "correct": true
+                }
+            ],
+            "explanation": "D is the correct option. The fsread is not a built-in node module."
+        },
+        {
+            "questionText": "Which of the following method of fs module is used to get file information?",
+            "options": [{
+                    "text": "fs.readFile(path, flags[, mode], callback)"
+                },
+                {
+                    "text": "fs.stat(path, callback)",
+                    "correct": true
+                },
+                {
+                    "text": "fs.open(path, flags[, mode], callback)"
+                },
+                {
+                    "text": "None of the above."
+                }
+            ],
+            "explanation": "B is the correct option. The fs.stat(path, callback) method is used to get information about a file."
+        },
+        {
+            "questionText": "Which of the following method is used to return the current working directory of the process?",
+            "options": [{
+                    "text": "cwd();",
+                    "correct": true
+                },
+                {
+                    "text": "cmd();"
+                },
+                {
+                    "text": "pwd();"
+                },
+                {
+                    "text": "None of the above."
+                }
+            ],
+            "explanation": "A is the correct option. The process.cwd() method is used to return the current working directory of the process."
+        },
+        {
+            "questionText": "Which of the following is not a benefit of using modules in Express?",
+            "options": [{
+                    "text": "It provides a means of reducing the size of the program.",
+                    "correct": true
+                },
+                {
+                    "text": "It provides a means of dividing up tasks."
+                },
+                {
+                    "text": "It provides a means of reuse of program code."
+                },
+                {
+                    "text": "It provides a means of testing individual parts of the program."
+                }
+            ],
+            "explanation": "A is the correct option. It provides a means of reducing the size of the program is not a benefit of modules in Express."
+        },
+        {
+            "questionText": "which of the following is not data binding process in AngularJS",
+            "options": [{
+                    "text": "scope",
+                    "correct": true
+                },
+                {
+                    "text": "view"
+                },
+                {
+                    "text": "model"
+                },
+                {
+                    "text": "template"
+                }
+            ],
+            "explanation": "A is the correct option. All 3 options are data binding process except scope. "
+
+        }
+    ]
+}
